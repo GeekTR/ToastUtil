@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/baseui_bg_toast_others"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingTop="16dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="16dp"
+    tools:ignore="UseCompoundDrawables">
+
+    <ImageView
+        android:id="@+id/baseui_toast_iv_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/baseui_toast_error"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@android:id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="@android:color/white"
+        android:textSize="13sp"
+        tools:text="最长文案不超过14个字" />
+</LinearLayout>

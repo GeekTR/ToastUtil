@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@android:id/message"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/baseui_bg_toast_text"
+    android:paddingLeft="40dp"
+    android:paddingTop="10dp"
+    android:paddingRight="40dp"
+    android:paddingBottom="10dp"
+    android:textColor="@android:color/white"
+    android:textSize="13sp"
+    tools:text="最长文案不超过14个字" />
